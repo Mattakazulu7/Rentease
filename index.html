@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short-Term Rental Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Crown Section -->
+    <header id="crown">
+        <div id="logo">🏡 RentEase</div>
+        <div id="blurb">Find your perfect stay in seconds</div>
+        <div id="auth">
+            <button id="sign-in">Sign In</button>
+            <button id="sign-up">Sign Up</button>
+        </div>
+    </header>
+
+    <!-- Hero Section with Carousel -->
+    <section id="hero">
+        <button id="prev-slide">❮</button>
+        <div id="carousel">
+            <div class="slide active">Popular Stay 1</div>
+            <div class="slide">Popular Stay 2</div>
+            <div class="slide">Popular Stay 3</div>
+        </div>
+        <button id="next-slide">❯</button>
+    </section>
+
+    <!-- Spectacle Section -->
+    <section id="spectacle">
+        <input type="text" id="search" placeholder="Search stays...">
+        <select id="filter">
+            <option value="all">All</option>
+            <option value="beach">Beach</option>
+            <option value="city">City</option>
+            <option value="mountain">Mountain</option>
+        </select>
+    </section>
+
+    <!-- Main Booking Section -->
+    <main id="main">
+        <div id="calendar">
+            <h2>Pick Your Dates</h2>
+            <div class="date-grid">
+                <!-- Calendar slots will be populated by JavaScript -->
+            </div>
+            <button id="book-now">Book Now</button>
+        </div>
+        <div id="product-profile">
+            <h2>Property Details</h2>
+            <p id="property-description">Select a property to see details</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>&copy; 2025 RentEase. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
